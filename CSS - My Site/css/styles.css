@@ -1,0 +1,127 @@
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #40514E;
+
+  }
+h1{
+  margin: 30px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 69px;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+p{
+  font-size: 20px;
+  line-height: 2;
+
+}
+hr {
+  padding: 30px;
+  border-style:dotted none none none;
+  border-color: black;
+  border-width:15px;
+  width: 10%;
+}
+a{
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+.skill-image-left{
+  height: 100px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.skill-image-right{
+  height: 100px;
+  float: right;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.pro{
+  text-decoration: underline;
+
+}
+
+.top-container {
+  background-color: #f7fbfc;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+padding-top: 75px;
+background-color: #d6e6f2;
+padding-bottom: 50px;
+
+}
+.bottom-container{
+  background-color: #b9d7ea;
+  padding: 3%;
+}
+.footer{
+  color: #EAF6F6;
+  font-size: 15px;
+  font-style: italic;
+}
+.footer-link{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 3% 0 3%;
+}
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.avatar {
+  border-radius:50%;
+}
+.myButton {
+	-moz-box-shadow: 0 7px 14px -7px #276873;
+	-webkit-box-shadow: 0 7px 14px -7px #276873;
+	box-shadow: 0 7px 14px -7px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 8px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
